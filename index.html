@@ -47,6 +47,10 @@
         margin: 1rem 0;
       }
 
+      p + ul {
+        margin-top: -0.5rem;
+      }
+
       ul {
         list-style: square;
       }
@@ -69,6 +73,12 @@
         margin: 0 auto;
         padding: 4rem 2rem;
         max-width: 960px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .content {
+          padding: 2rem;
+        }
       }
     </style>
   </head>
